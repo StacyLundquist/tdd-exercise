@@ -11,7 +11,6 @@ def blackjack_score(hand)
     when [\d].match(num)
     score += num
     end
-    when
   end
 
 end
