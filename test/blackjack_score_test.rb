@@ -30,7 +30,7 @@ describe 'Blackjack Score' do
   end
 
   it 'calculates aces as 11 where it does not go over 21' do
-    hand = ['Ace', '2']
+    hand = ['Ace', 2]
 
     score = blackjack_score(hand)
 

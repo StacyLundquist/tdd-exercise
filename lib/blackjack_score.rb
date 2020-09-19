@@ -16,7 +16,7 @@ def blackjack_score(hand)
       score += 1
       aces_in_hand += 1
     end
-    if num != VALID_CARDS
+    if !VALID_CARDS.include?(num)
       raise ArgumentError.new("That's not a card")
     end
   end
@@ -25,6 +25,9 @@ def blackjack_score(hand)
     score -= 10
   end
 
+  if score > 21
+    raise ArgumentError.new("Whoops, BUSTED")
+  end
 
   return score
 end
