@@ -1,0 +1,44 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/Ace/ADA/Coursework/tdd-exercise/lib/blackjack_score.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          6,
+          6,
+          null,
+          6,
+          13,
+          6,
+          null,
+          7,
+          null,
+          13,
+          2,
+          2,
+          null,
+          13,
+          1,
+          null,
+          null,
+          null,
+          5,
+          1,
+          null,
+          null,
+          5,
+          1,
+          null,
+          null,
+          4,
+          null
+        ]
+      }
+    },
+    "timestamp": 1602122604
+  }
+}
